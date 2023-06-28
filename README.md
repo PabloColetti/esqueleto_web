@@ -63,6 +63,8 @@ content-project/        (1) <--- Carpeta contenedora del proyecto
 Para ejecutar comandos de git(clonar)
 - git clone url_del_repo
 
+- git remote add origin url_repo
+
 (2) En la carpeta del epositorio
 Para ejecutar comandos del entorno(crearlo, activarlo o desactivarlo)
 - python -m venv nombre_entorno
