@@ -79,6 +79,9 @@ Para ejecutar comandos del entorno(crearlo, activarlo o desactivarlo)
 - pip freeze
 - pip freeze > requeriments.txt
 
+Creaando un archivo requirementes.txt y definiendo el paquete y sus version
+- pip install -r requirements.txt
+
 - git status
 - git add .
 - git add archivo_especifico
