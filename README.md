@@ -59,7 +59,8 @@ content-project/        (1) <--- Carpeta contenedora del proyecto
 
 ### Used commands
 ```
-(2) - Para ejecutar comandos del entorno(crearlo, activarlo o desactivarlo)
+(2) En carpeta del epositorio
+Para ejecutar comandos del entorno(crearlo, activarlo o desactivarlo)
 - python -m venv nombre_entorno
 - nombre_entorno\Scripts\activate
 - nombre_entorno\Scripts\deactivate
@@ -69,7 +70,8 @@ content-project/        (1) <--- Carpeta contenedora del proyecto
 - pip install nombre_paquete
 - etc
 
-(2) - Para ejecutar comandos del manage.py
+(4) En carpeta del proyecto
+Para ejecutar comandos del manage.py
 - pyhton manage.py runserver
 - pyhton manage.py startapp nombre_aplicacion
 - pyhton manage.py makemigrations
