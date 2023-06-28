@@ -60,8 +60,23 @@ content-project/        (1) <--- Carpeta contenedora del proyecto
 ### Used commands
 ```
 (1) En carpeta contenedora del proyecto
-Para ejecutar comandos de git(clonar, status)
+Para ejecutar comandos de git(clonar)
 - git clone url_del_repo
+
+(2) En la carpeta del epositorio
+Para ejecutar comandos del entorno(crearlo, activarlo o desactivarlo)
+- python -m venv nombre_entorno
+- nombre_entorno\Scripts\activate
+- nombre_entorno\Scripts\deactivate
+- Si no les reconoce el comando >>> cd nombre_entorno >>> cd Scripts >>> activate o deactivate
+- python -m pip install --upgrade pip
+
+- django-admin startproject nombre_proyecto
+
+- pip install nombre_paquete
+- pip freeze
+- pip freeze > requeriments.txt
+
 - git status
 - git add .
 - git add archivo_especifico
@@ -71,24 +86,14 @@ Para ejecutar comandos de git(clonar, status)
 - git pull
 - etc
 
-(2) En carpeta del epositorio
-Para ejecutar comandos del entorno(crearlo, activarlo o desactivarlo)
-- python -m venv nombre_entorno
-- nombre_entorno\Scripts\activate
-- nombre_entorno\Scripts\deactivate
-- Si no les reconoce el comando >>> cd nombre_entorno >>> cd Scripts >>> activate
-- python -m pip install --upgrade pip
-- django-admin startproject nombre_proyecto
-- pip install nombre_paquete
-- etc
-
-(4) En carpeta del proyecto
+(4) En la carpeta del proyecto
 Para ejecutar comandos del manage.py
 - pyhton manage.py runserver
 - pyhton manage.py startapp nombre_aplicacion
 - pyhton manage.py makemigrations
 - pyhton manage.py migrate
 - pyhton manage.py createsuperuser
+
 - pip install nombre_del_paquete
 - etc
 ```
