@@ -80,7 +80,7 @@ Para ejecutar comandos del entorno(crearlo, activarlo o desactivarlo)
 - pip freeze > requeriments.txt
 
 Creaando un archivo requirementes.txt y definiendo el paquete y sus version
-- pip install -r requirements.txt
+- pip install -r requeriments.txt
 
 - git status
 - git add .
@@ -102,3 +102,5 @@ Para ejecutar comandos del manage.py
 - pip install nombre_del_paquete
 - etc
 ```
+
+julian hace unos cambios en el readme por ejemplo
