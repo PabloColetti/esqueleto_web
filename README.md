@@ -102,3 +102,6 @@ Para ejecutar comandos del manage.py
 - pip install nombre_del_paquete
 - etc
 ```
+
+
+realizo un par de cambio para hacer un pr
