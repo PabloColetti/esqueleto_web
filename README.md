@@ -93,11 +93,11 @@ Creaando un archivo requirementes.txt y definiendo el paquete y sus version
 
 (4) En la carpeta del proyecto
 Para ejecutar comandos del manage.py
-- pyhton manage.py runserver
-- pyhton manage.py startapp nombre_aplicacion
-- pyhton manage.py makemigrations
-- pyhton manage.py migrate
-- pyhton manage.py createsuperuser
+- python manage.py runserver
+- python manage.py startapp nombre_aplicacion
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py createsuperuser
 
 - pip install nombre_del_paquete
 - etc
