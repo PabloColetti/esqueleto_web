@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Listado de posts{% endblock title %}
+
+{% block content %}
+  <p>Este contenido es de posts.html</p>
+  <table>
+    <tr>
+      <td>Nombre del post</td>
+    </tr>
+    {% for post in posts %}
+      <tr>
+        <td>{{ post }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock content %}
