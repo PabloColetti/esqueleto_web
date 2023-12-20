@@ -3,14 +3,9 @@
 https://dev.mysql.com/downloads/installer/
 ``` 
 
-### requeriments.txt
+### Install modules from requeriments.txt
 ```
-asgiref==3.7.2
-Django==4.2.2
-mysql-connector-python==8.0.33
-mysqlclient==2.2.0
-sqlparse==0.4.4
-tzdata==2023.3
+pip install -r requeriments.txt
 ```
 
 ### Migrate dependencies
@@ -26,7 +21,7 @@ python manage.py runserver
 ### Example - Project structure 
 ```
 content-project/        (1) <--- Carpeta contenedora del proyecto
-├── esqueleto_web/      (2) <--- Carpeta Repositorio
+├── esqueleto_web/      (2) <--- Carpeta Repositorio ; aca esta el punto y coma
 │ ├── env/              (3) <--- Carpeta del entorno - Ignorada en el .gitignore
 │ ├── myproject/        (4) <--- Carpeta del proyecto
 │ │ ├── myproject/
@@ -104,3 +99,5 @@ Para ejecutar comandos del manage.py
 ```
 
 julian hace unos cambios en el readme por ejemplo
+
+AGREGO UN CAMBIO DE PRUEBA
