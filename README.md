@@ -21,7 +21,7 @@ python manage.py runserver
 ### Example - Project structure 
 ```
 content-project/        (1) <--- Carpeta contenedora del proyecto
-├── esqueleto_web/      (2) <--- Carpeta Repositorio
+├── esqueleto_web/      (2) <--- Carpeta Repositorio ; aca esta el punto y coma
 │ ├── env/              (3) <--- Carpeta del entorno - Ignorada en el .gitignore
 │ ├── myproject/        (4) <--- Carpeta del proyecto
 │ │ ├── myproject/
